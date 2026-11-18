@@ -1,0 +1,8 @@
+[evaluate] sampled 300,000 rows for training
+[evaluate] district split: train 236,052 / test 63,948 (154 held-out districts)
+[evaluate] X: train (236052, 18), test (63948, 18), classes 53
+[models] gaussiannb: {'model': 'gaussiannb', 'val_accuracy': 0.1691, 'val_macro_f1': 0.0988, 'val_top3_accuracy': 0.2782}
+[models] random_forest: {'model': 'random_forest', 'val_accuracy': 0.1929, 'val_macro_f1': 0.1606, 'val_top3_accuracy': 0.3428}
+[models] xgboost: {'model': 'xgboost', 'val_accuracy': 0.2302, 'val_macro_f1': 0.1496, 'val_top3_accuracy': 0.4125}
+[evaluate] report: D:\A\KRISHIMITRA\outputs\reports\evaluation.md
+evaluate_exit=0

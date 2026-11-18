@@ -1,0 +1,36 @@
+[test_advisory_retains_unknown_with_warning]
+  PASS  advisory: Rice feasible with warnings
+[test_binding_constraints]
+  PASS  binding constraints reported for empty/failed sets
+[test_budget_fail]
+  PASS  budget below cost fails
+[test_feature_contract]
+  PASS  no forbidden predictor in feature contract
+  PASS  target not a feature
+[test_gnb_learns_synthetic]
+  PASS  GaussianNB learns synthetic (acc=1.00)
+  PASS  proba rows sum to 1
+  PASS  top3 accuracy works
+  PASS  macro_f1 range
+[test_impossible_profile_returns_nothing_feasible]
+  PASS  impossible profile -> zero feasible crops (strict)
+  PASS  advisory retains only unknown-status crops
+[test_ranking_order_and_scores]
+  PASS  ranked best-first
+  PASS  components present
+[test_risk_penalizes_volatile]
+  PASS  volatile crop scores lower
+[test_season_fail]
+  PASS  season mismatch fails even in advisory
+[test_sensitivity_runs]
+  PASS  sensitivity check returns stability flag
+[test_strict_unknown_never_feasible]
+  PASS  strict: unknown soil excludes Rice
+[test_unknown_defaults_never_true]
+  PASS  all-unknown crop excluded in strict
+[test_unknown_econ_neutral]
+  PASS  unknown risk -> None + note
+[test_water_fail]
+  PASS  low water fails high-need crop
+
+20 passed, 0 failed

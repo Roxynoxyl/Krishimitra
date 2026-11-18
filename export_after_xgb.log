@@ -1,0 +1,4 @@
+[export] dataset 338,178 rows
+[export] model=random_forest selection=max val_macro_f1 on district-holdout split (never test)
+[export] scored 2,880 district-season combinations
+[export] artifacts: {'geo.json': 9.2, 'crops.json': 7.7, 'economics.json': 5090.7, 'suitability.json': 558.0} KB -> D:\A\KRISHIMITRA\web\data
